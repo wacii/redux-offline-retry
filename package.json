@@ -1,0 +1,24 @@
+{
+  "name": "redux-offline-retry",
+  "version": "1.0.0",
+  "description": "Persistable fetch retries extracted from Redux Offline.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wacii/redux-offline-retry"
+  },
+  "author": "wacii",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "redux": "^3.7.0"
+  }
+}
